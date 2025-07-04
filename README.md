@@ -56,24 +56,24 @@ Run the app
 python app.py
 ```
 
-### Runing in Docker
+### Runing in Docker <a name = "deployment">
 
 Build the image (replace __pdfemotion__ with custom name if necessary)
 
 ```sh
-sudo docker build -t pdfemotion .
+docker build -t pdfemotion .
 ```
 
 Run the image
 
 ```sh
-sudo docker run -it pdfemotion
+docker run -it pdfemotion
 ```
 
 Run the image in bash (For debugging purposes)
 
 ```sh
-sudo docker run -it --entrypoint /bin/bash pdfemotion
+docker run -it --entrypoint /bin/bash pdfemotion
 ```
 
 
