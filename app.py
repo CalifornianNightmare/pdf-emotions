@@ -1,0 +1,8 @@
+from dotenv import load_dotenv
+load_dotenv()
+
+from app.menu import main_menu
+
+if __name__ == '__main__':
+    print('\n')
+    main_menu()
